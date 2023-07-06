@@ -11,7 +11,7 @@ loginForm.addEventListener("submit", function(event) {
   if (adminLogin(username, password)) {
     showModal("Login berhasil!", "success");
     setTimeout(() => {
-      window.location.href = "dashboard.html";
+      window.location.href = "d.html";
     }, 1000);
   } else {
     showModal("Login gagal! Silakan coba lagi.", "error");
